@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3033E18D1827677200E45809 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3033E18C1827677200E45809 /* Cocoa.framework */; };
+		3033E1971827677200E45809 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3033E1951827677200E45809 /* InfoPlist.strings */; };
+		3033E1991827677200E45809 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3033E1981827677200E45809 /* main.m */; };
+		3033E19D1827677200E45809 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3033E19B1827677200E45809 /* Credits.rtf */; };
+		3033E1A01827677200E45809 /* SpritePlantIsoDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 3033E19F1827677200E45809 /* SpritePlantIsoDocument.m */; };
+		3033E1A31827677200E45809 /* SpritePlantIsoDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3033E1A11827677200E45809 /* SpritePlantIsoDocument.xib */; };
+		3033E1A61827677200E45809 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3033E1A41827677200E45809 /* MainMenu.xib */; };
+		3033E1A81827677200E45809 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3033E1A71827677200E45809 /* Images.xcassets */; };
+		3033E1AF1827677300E45809 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3033E1AE1827677300E45809 /* XCTest.framework */; };
+		3033E1B01827677300E45809 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3033E18C1827677200E45809 /* Cocoa.framework */; };
+		3033E1B81827677300E45809 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3033E1B61827677300E45809 /* InfoPlist.strings */; };
+		3033E1BA1827677300E45809 /* Spriteplant_IsoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3033E1B91827677300E45809 /* Spriteplant_IsoTests.m */; };
+		3033E1C4182767A500E45809 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3033E1C3182767A500E45809 /* SceneKit.framework */; };
+		3033E1C7182768BD00E45809 /* SpritePlantIsoDocumentWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3033E1C6182768BD00E45809 /* SpritePlantIsoDocumentWindowController.m */; };
+		3033E1CA182776EC00E45809 /* SpritePlantIsoApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3033E1C9182776EC00E45809 /* SpritePlantIsoApplicationDelegate.m */; };
+		3033E1CD1827790400E45809 /* SpritePlantIsoNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 3033E1CC1827790400E45809 /* SpritePlantIsoNotifications.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3033E1B11827677300E45809 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3033E1811827677200E45809 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3033E1881827677200E45809;
+			remoteInfo = "Spriteplant Iso";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3033E1891827677200E45809 /* Spriteplant Iso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spriteplant Iso.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3033E18C1827677200E45809 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3033E18F1827677200E45809 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3033E1901827677200E45809 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3033E1911827677200E45809 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3033E1941827677200E45809 /* Spriteplant Iso-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spriteplant Iso-Info.plist"; sourceTree = "<group>"; };
+		3033E1961827677200E45809 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3033E1981827677200E45809 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3033E19A1827677200E45809 /* Spriteplant Iso-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spriteplant Iso-Prefix.pch"; sourceTree = "<group>"; };
+		3033E19C1827677200E45809 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3033E19E1827677200E45809 /* SpritePlantIsoDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpritePlantIsoDocument.h; sourceTree = "<group>"; };
+		3033E19F1827677200E45809 /* SpritePlantIsoDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpritePlantIsoDocument.m; sourceTree = "<group>"; };
+		3033E1A21827677200E45809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SpritePlantIsoDocument.xib; sourceTree = "<group>"; };
+		3033E1A51827677200E45809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3033E1A71827677200E45809 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3033E1AD1827677300E45809 /* Spriteplant IsoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spriteplant IsoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3033E1AE1827677300E45809 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3033E1B51827677300E45809 /* Spriteplant IsoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spriteplant IsoTests-Info.plist"; sourceTree = "<group>"; };
+		3033E1B71827677300E45809 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3033E1B91827677300E45809 /* Spriteplant_IsoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Spriteplant_IsoTests.m; sourceTree = "<group>"; };
+		3033E1C3182767A500E45809 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		3033E1C5182768BD00E45809 /* SpritePlantIsoDocumentWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpritePlantIsoDocumentWindowController.h; sourceTree = "<group>"; };
+		3033E1C6182768BD00E45809 /* SpritePlantIsoDocumentWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpritePlantIsoDocumentWindowController.m; sourceTree = "<group>"; };
+		3033E1C8182776EC00E45809 /* SpritePlantIsoApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpritePlantIsoApplicationDelegate.h; sourceTree = "<group>"; };
+		3033E1C9182776EC00E45809 /* SpritePlantIsoApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpritePlantIsoApplicationDelegate.m; sourceTree = "<group>"; };
+		3033E1CB1827790400E45809 /* SpritePlantIsoNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpritePlantIsoNotifications.h; sourceTree = "<group>"; };
+		3033E1CC1827790400E45809 /* SpritePlantIsoNotifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpritePlantIsoNotifications.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3033E1861827677200E45809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3033E1C4182767A500E45809 /* SceneKit.framework in Frameworks */,
+				3033E18D1827677200E45809 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3033E1AA1827677300E45809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3033E1B01827677300E45809 /* Cocoa.framework in Frameworks */,
+				3033E1AF1827677300E45809 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3033E1801827677200E45809 = {
+			isa = PBXGroup;
+			children = (
+				3033E1921827677200E45809 /* Spriteplant Iso */,
+				3033E1B31827677300E45809 /* Spriteplant IsoTests */,
+				3033E18B1827677200E45809 /* Frameworks */,
+				3033E18A1827677200E45809 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3033E18A1827677200E45809 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3033E1891827677200E45809 /* Spriteplant Iso.app */,
+				3033E1AD1827677300E45809 /* Spriteplant IsoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3033E18B1827677200E45809 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3033E1C3182767A500E45809 /* SceneKit.framework */,
+				3033E18C1827677200E45809 /* Cocoa.framework */,
+				3033E1AE1827677300E45809 /* XCTest.framework */,
+				3033E18E1827677200E45809 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3033E18E1827677200E45809 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3033E18F1827677200E45809 /* AppKit.framework */,
+				3033E1901827677200E45809 /* CoreData.framework */,
+				3033E1911827677200E45809 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3033E1921827677200E45809 /* Spriteplant Iso */ = {
+			isa = PBXGroup;
+			children = (
+				3033E1C8182776EC00E45809 /* SpritePlantIsoApplicationDelegate.h */,
+				3033E1C9182776EC00E45809 /* SpritePlantIsoApplicationDelegate.m */,
+				3033E19E1827677200E45809 /* SpritePlantIsoDocument.h */,
+				3033E19F1827677200E45809 /* SpritePlantIsoDocument.m */,
+				3033E1A11827677200E45809 /* SpritePlantIsoDocument.xib */,
+				3033E1C5182768BD00E45809 /* SpritePlantIsoDocumentWindowController.h */,
+				3033E1C6182768BD00E45809 /* SpritePlantIsoDocumentWindowController.m */,
+				3033E1CB1827790400E45809 /* SpritePlantIsoNotifications.h */,
+				3033E1CC1827790400E45809 /* SpritePlantIsoNotifications.m */,
+				3033E1A41827677200E45809 /* MainMenu.xib */,
+				3033E1A71827677200E45809 /* Images.xcassets */,
+				3033E1931827677200E45809 /* Supporting Files */,
+			);
+			path = "Spriteplant Iso";
+			sourceTree = "<group>";
+		};
+		3033E1931827677200E45809 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3033E1941827677200E45809 /* Spriteplant Iso-Info.plist */,
+				3033E1951827677200E45809 /* InfoPlist.strings */,
+				3033E1981827677200E45809 /* main.m */,
+				3033E19A1827677200E45809 /* Spriteplant Iso-Prefix.pch */,
+				3033E19B1827677200E45809 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3033E1B31827677300E45809 /* Spriteplant IsoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3033E1B91827677300E45809 /* Spriteplant_IsoTests.m */,
+				3033E1B41827677300E45809 /* Supporting Files */,
+			);
+			path = "Spriteplant IsoTests";
+			sourceTree = "<group>";
+		};
+		3033E1B41827677300E45809 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3033E1B51827677300E45809 /* Spriteplant IsoTests-Info.plist */,
+				3033E1B61827677300E45809 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3033E1881827677200E45809 /* Spriteplant Iso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3033E1BD1827677300E45809 /* Build configuration list for PBXNativeTarget "Spriteplant Iso" */;
+			buildPhases = (
+				3033E1851827677200E45809 /* Sources */,
+				3033E1861827677200E45809 /* Frameworks */,
+				3033E1871827677200E45809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spriteplant Iso";
+			productName = "Spriteplant Iso";
+			productReference = 3033E1891827677200E45809 /* Spriteplant Iso.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3033E1AC1827677300E45809 /* Spriteplant IsoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3033E1C01827677300E45809 /* Build configuration list for PBXNativeTarget "Spriteplant IsoTests" */;
+			buildPhases = (
+				3033E1A91827677300E45809 /* Sources */,
+				3033E1AA1827677300E45809 /* Frameworks */,
+				3033E1AB1827677300E45809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3033E1B21827677300E45809 /* PBXTargetDependency */,
+			);
+			name = "Spriteplant IsoTests";
+			productName = "Spriteplant IsoTests";
+			productReference = 3033E1AD1827677300E45809 /* Spriteplant IsoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3033E1811827677200E45809 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BTL;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Michael Buckley";
+				TargetAttributes = {
+					3033E1881827677200E45809 = {
+						DevelopmentTeam = S4YHUE5Y65;
+					};
+					3033E1AC1827677300E45809 = {
+						TestTargetID = 3033E1881827677200E45809;
+					};
+				};
+			};
+			buildConfigurationList = 3033E1841827677200E45809 /* Build configuration list for PBXProject "Spriteplant Iso" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3033E1801827677200E45809;
+			productRefGroup = 3033E18A1827677200E45809 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3033E1881827677200E45809 /* Spriteplant Iso */,
+				3033E1AC1827677300E45809 /* Spriteplant IsoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3033E1871827677200E45809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3033E1971827677200E45809 /* InfoPlist.strings in Resources */,
+				3033E1A81827677200E45809 /* Images.xcassets in Resources */,
+				3033E19D1827677200E45809 /* Credits.rtf in Resources */,
+				3033E1A31827677200E45809 /* SpritePlantIsoDocument.xib in Resources */,
+				3033E1A61827677200E45809 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3033E1AB1827677300E45809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3033E1B81827677300E45809 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3033E1851827677200E45809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3033E1C7182768BD00E45809 /* SpritePlantIsoDocumentWindowController.m in Sources */,
+				3033E1991827677200E45809 /* main.m in Sources */,
+				3033E1CA182776EC00E45809 /* SpritePlantIsoApplicationDelegate.m in Sources */,
+				3033E1CD1827790400E45809 /* SpritePlantIsoNotifications.m in Sources */,
+				3033E1A01827677200E45809 /* SpritePlantIsoDocument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3033E1A91827677300E45809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3033E1BA1827677300E45809 /* Spriteplant_IsoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3033E1B21827677300E45809 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3033E1881827677200E45809 /* Spriteplant Iso */;
+			targetProxy = 3033E1B11827677300E45809 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3033E1951827677200E45809 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3033E1961827677200E45809 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3033E19B1827677200E45809 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3033E19C1827677200E45809 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3033E1A11827677200E45809 /* SpritePlantIsoDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3033E1A21827677200E45809 /* Base */,
+			);
+			name = SpritePlantIsoDocument.xib;
+			sourceTree = "<group>";
+		};
+		3033E1A41827677200E45809 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3033E1A51827677200E45809 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3033E1B61827677300E45809 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3033E1B71827677300E45809 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3033E1BB1827677300E45809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3033E1BC1827677300E45809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3033E1BE1827677300E45809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spriteplant Iso/Spriteplant Iso-Prefix.pch";
+				INFOPLIST_FILE = "Spriteplant Iso/Spriteplant Iso-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3033E1BF1827677300E45809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spriteplant Iso/Spriteplant Iso-Prefix.pch";
+				INFOPLIST_FILE = "Spriteplant Iso/Spriteplant Iso-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3033E1C11827677300E45809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Spriteplant Iso.app/Contents/MacOS/Spriteplant Iso";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spriteplant Iso/Spriteplant Iso-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Spriteplant IsoTests/Spriteplant IsoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3033E1C21827677300E45809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Spriteplant Iso.app/Contents/MacOS/Spriteplant Iso";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spriteplant Iso/Spriteplant Iso-Prefix.pch";
+				INFOPLIST_FILE = "Spriteplant IsoTests/Spriteplant IsoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3033E1841827677200E45809 /* Build configuration list for PBXProject "Spriteplant Iso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3033E1BB1827677300E45809 /* Debug */,
+				3033E1BC1827677300E45809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3033E1BD1827677300E45809 /* Build configuration list for PBXNativeTarget "Spriteplant Iso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3033E1BE1827677300E45809 /* Debug */,
+				3033E1BF1827677300E45809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3033E1C01827677300E45809 /* Build configuration list for PBXNativeTarget "Spriteplant IsoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3033E1C11827677300E45809 /* Debug */,
+				3033E1C21827677300E45809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3033E1811827677200E45809 /* Project object */;
+}
