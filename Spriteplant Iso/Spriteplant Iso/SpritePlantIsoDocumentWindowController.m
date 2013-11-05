@@ -10,13 +10,13 @@
 
 @interface SpritePlantIsoDocumentWindowController ()
 
-@property (nonatomic, readonly, retain) NSMutableSet* documents;
+@property (nonatomic, readonly, strong) NSMutableSet* documents;
 
 @end
 
 @implementation SpritePlantIsoDocumentWindowController
 
-- (id)initWithWindow:(NSWindow *)window
+- (id) initWithWindow:(NSWindow *)window
 {
     self = [super initWithWindow:window];
     if (self) {
@@ -25,7 +25,7 @@
     return self;
 }
 
-- (void)windowDidLoad
+- (void) windowDidLoad
 {
     [super windowDidLoad];
     

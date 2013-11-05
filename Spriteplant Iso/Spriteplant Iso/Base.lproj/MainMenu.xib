@@ -648,5 +648,6 @@
         </menu>
         <customObject id="419" customClass="NSFontManager"/>
         <customObject id="pUh-0g-tXs" customClass="SpritePlantIsoApplicationDelegate"/>
+        <customObject id="dmG-BB-Vx4" customClass="SpritePlantIsoDocumentController"/>
     </objects>
 </document>

@@ -10,4 +10,7 @@
 
 @interface SpritePlantIsoDocumentWindowController : NSWindowController
 
+- (void) addDocument:    (NSDocument*) document;
+- (void) removeDocument: (NSDocument*) document;
+
 @end
