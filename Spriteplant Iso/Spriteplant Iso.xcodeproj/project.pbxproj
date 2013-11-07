@@ -23,6 +23,11 @@
 		3033E1C7182768BD00E45809 /* SpritePlantIsoDocumentWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3033E1C6182768BD00E45809 /* SpritePlantIsoDocumentWindowController.m */; };
 		3033E1CA182776EC00E45809 /* SpritePlantIsoApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3033E1C9182776EC00E45809 /* SpritePlantIsoApplicationDelegate.m */; };
 		3033E1CD1827790400E45809 /* SpritePlantIsoNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 3033E1CC1827790400E45809 /* SpritePlantIsoNotifications.m */; };
+		3044F845182AEF7D00E70293 /* BTLSceneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3044F844182AEF7D00E70293 /* BTLSceneView.m */; };
+		3044F848182AF95300E70293 /* BTLSceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3044F847182AF95300E70293 /* BTLSceneDelegate.m */; };
+		3044F84B182AFE3300E70293 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3044F849182AFE3300E70293 /* GLKit.framework */; };
+		3044F84C182AFE3300E70293 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3044F84A182AFE3300E70293 /* OpenGL.framework */; };
+		3044F84F182B013D00E70293 /* SpritePlantIsoDocumentWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3044F84E182B013D00E70293 /* SpritePlantIsoDocumentWindow.m */; };
 		30B015291828AD3F0083BD94 /* SpritePlantIsoDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B015281828AD3F0083BD94 /* SpritePlantIsoDocumentController.m */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +69,14 @@
 		3033E1C9182776EC00E45809 /* SpritePlantIsoApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpritePlantIsoApplicationDelegate.m; sourceTree = "<group>"; };
 		3033E1CB1827790400E45809 /* SpritePlantIsoNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpritePlantIsoNotifications.h; sourceTree = "<group>"; };
 		3033E1CC1827790400E45809 /* SpritePlantIsoNotifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpritePlantIsoNotifications.m; sourceTree = "<group>"; };
+		3044F843182AEF7D00E70293 /* BTLSceneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTLSceneView.h; sourceTree = "<group>"; };
+		3044F844182AEF7D00E70293 /* BTLSceneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTLSceneView.m; sourceTree = "<group>"; };
+		3044F846182AF95300E70293 /* BTLSceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTLSceneDelegate.h; sourceTree = "<group>"; };
+		3044F847182AF95300E70293 /* BTLSceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTLSceneDelegate.m; sourceTree = "<group>"; };
+		3044F849182AFE3300E70293 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		3044F84A182AFE3300E70293 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		3044F84D182B013D00E70293 /* SpritePlantIsoDocumentWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpritePlantIsoDocumentWindow.h; path = "Spriteplant Iso/SpritePlantIsoDocumentWindow.h"; sourceTree = "<group>"; };
+		3044F84E182B013D00E70293 /* SpritePlantIsoDocumentWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpritePlantIsoDocumentWindow.m; path = "Spriteplant Iso/SpritePlantIsoDocumentWindow.m"; sourceTree = "<group>"; };
 		30B015271828AD3F0083BD94 /* SpritePlantIsoDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpritePlantIsoDocumentController.h; sourceTree = "<group>"; };
 		30B015281828AD3F0083BD94 /* SpritePlantIsoDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpritePlantIsoDocumentController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3044F84B182AFE3300E70293 /* GLKit.framework in Frameworks */,
+				3044F84C182AFE3300E70293 /* OpenGL.framework in Frameworks */,
 				3033E1C4182767A500E45809 /* SceneKit.framework in Frameworks */,
 				3033E18D1827677200E45809 /* Cocoa.framework in Frameworks */,
 			);
@@ -93,6 +108,10 @@
 		3033E1801827677200E45809 = {
 			isa = PBXGroup;
 			children = (
+				3044F84D182B013D00E70293 /* SpritePlantIsoDocumentWindow.h */,
+				3044F84E182B013D00E70293 /* SpritePlantIsoDocumentWindow.m */,
+				3044F843182AEF7D00E70293 /* BTLSceneView.h */,
+				3044F844182AEF7D00E70293 /* BTLSceneView.m */,
 				3033E1921827677200E45809 /* Spriteplant Iso */,
 				3033E1B31827677300E45809 /* Spriteplant IsoTests */,
 				3033E18B1827677200E45809 /* Frameworks */,
@@ -112,6 +131,8 @@
 		3033E18B1827677200E45809 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3044F849182AFE3300E70293 /* GLKit.framework */,
+				3044F84A182AFE3300E70293 /* OpenGL.framework */,
 				3033E1C3182767A500E45809 /* SceneKit.framework */,
 				3033E18C1827677200E45809 /* Cocoa.framework */,
 				3033E1AE1827677300E45809 /* XCTest.framework */,
@@ -147,6 +168,8 @@
 				3033E1931827677200E45809 /* Supporting Files */,
 				30B015271828AD3F0083BD94 /* SpritePlantIsoDocumentController.h */,
 				30B015281828AD3F0083BD94 /* SpritePlantIsoDocumentController.m */,
+				3044F846182AF95300E70293 /* BTLSceneDelegate.h */,
+				3044F847182AF95300E70293 /* BTLSceneDelegate.m */,
 			);
 			path = "Spriteplant Iso";
 			sourceTree = "<group>";
@@ -284,10 +307,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3044F84F182B013D00E70293 /* SpritePlantIsoDocumentWindow.m in Sources */,
+				3044F848182AF95300E70293 /* BTLSceneDelegate.m in Sources */,
 				3033E1C7182768BD00E45809 /* SpritePlantIsoDocumentWindowController.m in Sources */,
 				30B015291828AD3F0083BD94 /* SpritePlantIsoDocumentController.m in Sources */,
 				3033E1991827677200E45809 /* main.m in Sources */,
 				3033E1CA182776EC00E45809 /* SpritePlantIsoApplicationDelegate.m in Sources */,
+				3044F845182AEF7D00E70293 /* BTLSceneView.m in Sources */,
 				3033E1CD1827790400E45809 /* SpritePlantIsoNotifications.m in Sources */,
 				3033E1A01827677200E45809 /* SpritePlantIsoDocument.m in Sources */,
 			);
