@@ -6,7 +6,6 @@
 //  Copyright (c) 2013 Michael Buckley. All rights reserved.
 //
 
-#import "BTLSceneDelegate.h"
 #import "SpritePlantIsoDocumentWindow.h"
 #import "SpritePlantIsoDocumentWindowController.h"
 
@@ -23,7 +22,6 @@
     self = [super initWithWindow:window];
     if (self) {
         _documents = [NSMutableSet new];
-        _sceneDelegate = [BTLSceneDelegate new];
     }
     return self;
 }
@@ -35,11 +33,7 @@
     [[NSNotificationCenter defaultCenter] addObserver: self
                                              selector: @selector(windowWillClose:)
                                                  name: NSWindowWillCloseNotification
-                                               object: [self window]];
-    
-    SpritePlantIsoDocumentWindow* window = (SpritePlantIsoDocumentWindow*) [self window];
-    
-    [[window sceneView] setDelegate: [self sceneDelegate]];
+                                               object: [self window]];    
 }
 
 - (void) windowWillClose: (NSNotification*) notification

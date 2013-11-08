@@ -8,13 +8,9 @@
 
 #import <Cocoa/Cocoa.h>
 
-@class BTLSceneDelegate;
-
 @interface SpritePlantIsoDocumentWindowController : NSWindowController
 
 - (void) addDocument:    (NSDocument*) document;
 - (void) removeDocument: (NSDocument*) document;
-
-@property (nonatomic, readwrite, retain) BTLSceneDelegate* sceneDelegate;
 
 @end
