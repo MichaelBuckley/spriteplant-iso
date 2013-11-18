@@ -1,557 +1,1374 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		3033E18D1827677200E45809 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3033E18C1827677200E45809 /* Cocoa.framework */; };
-		3033E1971827677200E45809 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3033E1951827677200E45809 /* InfoPlist.strings */; };
-		3033E1991827677200E45809 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3033E1981827677200E45809 /* main.m */; };
-		3033E19D1827677200E45809 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3033E19B1827677200E45809 /* Credits.rtf */; };
-		3033E1A01827677200E45809 /* SpritePlantIsoDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 3033E19F1827677200E45809 /* SpritePlantIsoDocument.m */; };
-		3033E1A31827677200E45809 /* SpritePlantIsoDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3033E1A11827677200E45809 /* SpritePlantIsoDocument.xib */; };
-		3033E1A61827677200E45809 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3033E1A41827677200E45809 /* MainMenu.xib */; };
-		3033E1A81827677200E45809 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3033E1A71827677200E45809 /* Images.xcassets */; };
-		3033E1AF1827677300E45809 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3033E1AE1827677300E45809 /* XCTest.framework */; };
-		3033E1B01827677300E45809 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3033E18C1827677200E45809 /* Cocoa.framework */; };
-		3033E1B81827677300E45809 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3033E1B61827677300E45809 /* InfoPlist.strings */; };
-		3033E1BA1827677300E45809 /* Spriteplant_IsoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3033E1B91827677300E45809 /* Spriteplant_IsoTests.m */; };
-		3033E1C4182767A500E45809 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3033E1C3182767A500E45809 /* SceneKit.framework */; };
-		3033E1C7182768BD00E45809 /* SpritePlantIsoDocumentWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3033E1C6182768BD00E45809 /* SpritePlantIsoDocumentWindowController.m */; };
-		3033E1CA182776EC00E45809 /* SpritePlantIsoApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3033E1C9182776EC00E45809 /* SpritePlantIsoApplicationDelegate.m */; };
-		3033E1CD1827790400E45809 /* SpritePlantIsoNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 3033E1CC1827790400E45809 /* SpritePlantIsoNotifications.m */; };
-		3044F845182AEF7D00E70293 /* BTLSceneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3044F844182AEF7D00E70293 /* BTLSceneView.m */; };
-		3044F84B182AFE3300E70293 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3044F849182AFE3300E70293 /* GLKit.framework */; };
-		3044F84C182AFE3300E70293 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3044F84A182AFE3300E70293 /* OpenGL.framework */; };
-		3044F84F182B013D00E70293 /* SpritePlantIsoDocumentWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3044F84E182B013D00E70293 /* SpritePlantIsoDocumentWindow.m */; };
-		30B015291828AD3F0083BD94 /* SpritePlantIsoDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B015281828AD3F0083BD94 /* SpritePlantIsoDocumentController.m */; };
-		30BC2B96182C717C006FFE59 /* BTLBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BC2B95182C717C006FFE59 /* BTLBackgroundView.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3033E1B11827677300E45809 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3033E1811827677200E45809 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3033E1881827677200E45809;
-			remoteInfo = "Spriteplant Iso";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		3033E1891827677200E45809 /* Spriteplant Iso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spriteplant Iso.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3033E18C1827677200E45809 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		3033E18F1827677200E45809 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		3033E1901827677200E45809 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		3033E1911827677200E45809 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		3033E1941827677200E45809 /* Spriteplant Iso-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spriteplant Iso-Info.plist"; sourceTree = "<group>"; };
-		3033E1961827677200E45809 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3033E1981827677200E45809 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3033E19A1827677200E45809 /* Spriteplant Iso-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spriteplant Iso-Prefix.pch"; sourceTree = "<group>"; };
-		3033E19C1827677200E45809 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		3033E19E1827677200E45809 /* SpritePlantIsoDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpritePlantIsoDocument.h; sourceTree = "<group>"; };
-		3033E19F1827677200E45809 /* SpritePlantIsoDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpritePlantIsoDocument.m; sourceTree = "<group>"; };
-		3033E1A21827677200E45809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SpritePlantIsoDocument.xib; sourceTree = "<group>"; };
-		3033E1A51827677200E45809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		3033E1A71827677200E45809 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3033E1AD1827677300E45809 /* Spriteplant IsoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spriteplant IsoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3033E1AE1827677300E45809 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3033E1B51827677300E45809 /* Spriteplant IsoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spriteplant IsoTests-Info.plist"; sourceTree = "<group>"; };
-		3033E1B71827677300E45809 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3033E1B91827677300E45809 /* Spriteplant_IsoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Spriteplant_IsoTests.m; sourceTree = "<group>"; };
-		3033E1C3182767A500E45809 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
-		3033E1C5182768BD00E45809 /* SpritePlantIsoDocumentWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpritePlantIsoDocumentWindowController.h; sourceTree = "<group>"; };
-		3033E1C6182768BD00E45809 /* SpritePlantIsoDocumentWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpritePlantIsoDocumentWindowController.m; sourceTree = "<group>"; };
-		3033E1C8182776EC00E45809 /* SpritePlantIsoApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpritePlantIsoApplicationDelegate.h; sourceTree = "<group>"; };
-		3033E1C9182776EC00E45809 /* SpritePlantIsoApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpritePlantIsoApplicationDelegate.m; sourceTree = "<group>"; };
-		3033E1CB1827790400E45809 /* SpritePlantIsoNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpritePlantIsoNotifications.h; sourceTree = "<group>"; };
-		3033E1CC1827790400E45809 /* SpritePlantIsoNotifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpritePlantIsoNotifications.m; sourceTree = "<group>"; };
-		3044F843182AEF7D00E70293 /* BTLSceneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTLSceneView.h; sourceTree = "<group>"; };
-		3044F844182AEF7D00E70293 /* BTLSceneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTLSceneView.m; sourceTree = "<group>"; };
-		3044F849182AFE3300E70293 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
-		3044F84A182AFE3300E70293 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		3044F84D182B013D00E70293 /* SpritePlantIsoDocumentWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpritePlantIsoDocumentWindow.h; path = "Spriteplant Iso/SpritePlantIsoDocumentWindow.h"; sourceTree = "<group>"; };
-		3044F84E182B013D00E70293 /* SpritePlantIsoDocumentWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpritePlantIsoDocumentWindow.m; path = "Spriteplant Iso/SpritePlantIsoDocumentWindow.m"; sourceTree = "<group>"; };
-		30B015271828AD3F0083BD94 /* SpritePlantIsoDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpritePlantIsoDocumentController.h; sourceTree = "<group>"; };
-		30B015281828AD3F0083BD94 /* SpritePlantIsoDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpritePlantIsoDocumentController.m; sourceTree = "<group>"; };
-		30BC2B94182C717C006FFE59 /* BTLBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTLBackgroundView.h; sourceTree = "<group>"; };
-		30BC2B95182C717C006FFE59 /* BTLBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTLBackgroundView.m; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		3033E1861827677200E45809 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3044F84B182AFE3300E70293 /* GLKit.framework in Frameworks */,
-				3044F84C182AFE3300E70293 /* OpenGL.framework in Frameworks */,
-				3033E1C4182767A500E45809 /* SceneKit.framework in Frameworks */,
-				3033E18D1827677200E45809 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3033E1AA1827677300E45809 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3033E1B01827677300E45809 /* Cocoa.framework in Frameworks */,
-				3033E1AF1827677300E45809 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		3033E1801827677200E45809 = {
-			isa = PBXGroup;
-			children = (
-				3044F84D182B013D00E70293 /* SpritePlantIsoDocumentWindow.h */,
-				3044F84E182B013D00E70293 /* SpritePlantIsoDocumentWindow.m */,
-				3044F843182AEF7D00E70293 /* BTLSceneView.h */,
-				3044F844182AEF7D00E70293 /* BTLSceneView.m */,
-				3033E1921827677200E45809 /* Spriteplant Iso */,
-				3033E1B31827677300E45809 /* Spriteplant IsoTests */,
-				3033E18B1827677200E45809 /* Frameworks */,
-				3033E18A1827677200E45809 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		3033E18A1827677200E45809 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3033E1891827677200E45809 /* Spriteplant Iso.app */,
-				3033E1AD1827677300E45809 /* Spriteplant IsoTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3033E18B1827677200E45809 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3044F849182AFE3300E70293 /* GLKit.framework */,
-				3044F84A182AFE3300E70293 /* OpenGL.framework */,
-				3033E1C3182767A500E45809 /* SceneKit.framework */,
-				3033E18C1827677200E45809 /* Cocoa.framework */,
-				3033E1AE1827677300E45809 /* XCTest.framework */,
-				3033E18E1827677200E45809 /* Other Frameworks */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3033E18E1827677200E45809 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3033E18F1827677200E45809 /* AppKit.framework */,
-				3033E1901827677200E45809 /* CoreData.framework */,
-				3033E1911827677200E45809 /* Foundation.framework */,
-			);
-			name = "Other Frameworks";
-			sourceTree = "<group>";
-		};
-		3033E1921827677200E45809 /* Spriteplant Iso */ = {
-			isa = PBXGroup;
-			children = (
-				3033E1C8182776EC00E45809 /* SpritePlantIsoApplicationDelegate.h */,
-				3033E1C9182776EC00E45809 /* SpritePlantIsoApplicationDelegate.m */,
-				3033E19E1827677200E45809 /* SpritePlantIsoDocument.h */,
-				3033E19F1827677200E45809 /* SpritePlantIsoDocument.m */,
-				3033E1A11827677200E45809 /* SpritePlantIsoDocument.xib */,
-				3033E1C5182768BD00E45809 /* SpritePlantIsoDocumentWindowController.h */,
-				3033E1C6182768BD00E45809 /* SpritePlantIsoDocumentWindowController.m */,
-				3033E1CB1827790400E45809 /* SpritePlantIsoNotifications.h */,
-				3033E1CC1827790400E45809 /* SpritePlantIsoNotifications.m */,
-				3033E1A41827677200E45809 /* MainMenu.xib */,
-				3033E1A71827677200E45809 /* Images.xcassets */,
-				3033E1931827677200E45809 /* Supporting Files */,
-				30B015271828AD3F0083BD94 /* SpritePlantIsoDocumentController.h */,
-				30B015281828AD3F0083BD94 /* SpritePlantIsoDocumentController.m */,
-				30BC2B94182C717C006FFE59 /* BTLBackgroundView.h */,
-				30BC2B95182C717C006FFE59 /* BTLBackgroundView.m */,
-			);
-			path = "Spriteplant Iso";
-			sourceTree = "<group>";
-		};
-		3033E1931827677200E45809 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3033E1941827677200E45809 /* Spriteplant Iso-Info.plist */,
-				3033E1951827677200E45809 /* InfoPlist.strings */,
-				3033E1981827677200E45809 /* main.m */,
-				3033E19A1827677200E45809 /* Spriteplant Iso-Prefix.pch */,
-				3033E19B1827677200E45809 /* Credits.rtf */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3033E1B31827677300E45809 /* Spriteplant IsoTests */ = {
-			isa = PBXGroup;
-			children = (
-				3033E1B91827677300E45809 /* Spriteplant_IsoTests.m */,
-				3033E1B41827677300E45809 /* Supporting Files */,
-			);
-			path = "Spriteplant IsoTests";
-			sourceTree = "<group>";
-		};
-		3033E1B41827677300E45809 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3033E1B51827677300E45809 /* Spriteplant IsoTests-Info.plist */,
-				3033E1B61827677300E45809 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		3033E1881827677200E45809 /* Spriteplant Iso */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3033E1BD1827677300E45809 /* Build configuration list for PBXNativeTarget "Spriteplant Iso" */;
-			buildPhases = (
-				3033E1851827677200E45809 /* Sources */,
-				3033E1861827677200E45809 /* Frameworks */,
-				3033E1871827677200E45809 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Spriteplant Iso";
-			productName = "Spriteplant Iso";
-			productReference = 3033E1891827677200E45809 /* Spriteplant Iso.app */;
-			productType = "com.apple.product-type.application";
-		};
-		3033E1AC1827677300E45809 /* Spriteplant IsoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3033E1C01827677300E45809 /* Build configuration list for PBXNativeTarget "Spriteplant IsoTests" */;
-			buildPhases = (
-				3033E1A91827677300E45809 /* Sources */,
-				3033E1AA1827677300E45809 /* Frameworks */,
-				3033E1AB1827677300E45809 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3033E1B21827677300E45809 /* PBXTargetDependency */,
-			);
-			name = "Spriteplant IsoTests";
-			productName = "Spriteplant IsoTests";
-			productReference = 3033E1AD1827677300E45809 /* Spriteplant IsoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		3033E1811827677200E45809 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				CLASSPREFIX = BTL;
-				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = "Michael Buckley";
-				TargetAttributes = {
-					3033E1881827677200E45809 = {
-						DevelopmentTeam = S4YHUE5Y65;
-					};
-					3033E1AC1827677300E45809 = {
-						TestTargetID = 3033E1881827677200E45809;
-					};
-				};
-			};
-			buildConfigurationList = 3033E1841827677200E45809 /* Build configuration list for PBXProject "Spriteplant Iso" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 3033E1801827677200E45809;
-			productRefGroup = 3033E18A1827677200E45809 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				3033E1881827677200E45809 /* Spriteplant Iso */,
-				3033E1AC1827677300E45809 /* Spriteplant IsoTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		3033E1871827677200E45809 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3033E1971827677200E45809 /* InfoPlist.strings in Resources */,
-				3033E1A81827677200E45809 /* Images.xcassets in Resources */,
-				3033E19D1827677200E45809 /* Credits.rtf in Resources */,
-				3033E1A31827677200E45809 /* SpritePlantIsoDocument.xib in Resources */,
-				3033E1A61827677200E45809 /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3033E1AB1827677300E45809 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3033E1B81827677300E45809 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		3033E1851827677200E45809 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3044F84F182B013D00E70293 /* SpritePlantIsoDocumentWindow.m in Sources */,
-				3033E1C7182768BD00E45809 /* SpritePlantIsoDocumentWindowController.m in Sources */,
-				30B015291828AD3F0083BD94 /* SpritePlantIsoDocumentController.m in Sources */,
-				3033E1991827677200E45809 /* main.m in Sources */,
-				30BC2B96182C717C006FFE59 /* BTLBackgroundView.m in Sources */,
-				3033E1CA182776EC00E45809 /* SpritePlantIsoApplicationDelegate.m in Sources */,
-				3044F845182AEF7D00E70293 /* BTLSceneView.m in Sources */,
-				3033E1CD1827790400E45809 /* SpritePlantIsoNotifications.m in Sources */,
-				3033E1A01827677200E45809 /* SpritePlantIsoDocument.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3033E1A91827677300E45809 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3033E1BA1827677300E45809 /* Spriteplant_IsoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3033E1B21827677300E45809 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3033E1881827677200E45809 /* Spriteplant Iso */;
-			targetProxy = 3033E1B11827677300E45809 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3033E1951827677200E45809 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3033E1961827677200E45809 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		3033E19B1827677200E45809 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3033E19C1827677200E45809 /* en */,
-			);
-			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		3033E1A11827677200E45809 /* SpritePlantIsoDocument.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3033E1A21827677200E45809 /* Base */,
-			);
-			name = SpritePlantIsoDocument.xib;
-			sourceTree = "<group>";
-		};
-		3033E1A41827677200E45809 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3033E1A51827677200E45809 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		3033E1B61827677300E45809 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3033E1B71827677300E45809 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		3033E1BB1827677300E45809 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		3033E1BC1827677300E45809 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		3033E1BE1827677300E45809 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Spriteplant Iso/Spriteplant Iso-Prefix.pch";
-				INFOPLIST_FILE = "Spriteplant Iso/Spriteplant Iso-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		3033E1BF1827677300E45809 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Spriteplant Iso/Spriteplant Iso-Prefix.pch";
-				INFOPLIST_FILE = "Spriteplant Iso/Spriteplant Iso-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		3033E1C11827677300E45809 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Spriteplant Iso.app/Contents/MacOS/Spriteplant Iso";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Spriteplant Iso/Spriteplant Iso-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Spriteplant IsoTests/Spriteplant IsoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		3033E1C21827677300E45809 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Spriteplant Iso.app/Contents/MacOS/Spriteplant Iso";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Spriteplant Iso/Spriteplant Iso-Prefix.pch";
-				INFOPLIST_FILE = "Spriteplant IsoTests/Spriteplant IsoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		3033E1841827677200E45809 /* Build configuration list for PBXProject "Spriteplant Iso" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3033E1BB1827677300E45809 /* Debug */,
-				3033E1BC1827677300E45809 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3033E1BD1827677300E45809 /* Build configuration list for PBXNativeTarget "Spriteplant Iso" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3033E1BE1827677300E45809 /* Debug */,
-				3033E1BF1827677300E45809 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3033E1C01827677300E45809 /* Build configuration list for PBXNativeTarget "Spriteplant IsoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3033E1C11827677300E45809 /* Debug */,
-				3033E1C21827677300E45809 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 3033E1811827677200E45809 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>3033E1801827677200E45809</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3044F84D182B013D00E70293</string>
+				<string>3044F84E182B013D00E70293</string>
+				<string>3044F843182AEF7D00E70293</string>
+				<string>3044F844182AEF7D00E70293</string>
+				<string>3033E1921827677200E45809</string>
+				<string>3033E1B31827677300E45809</string>
+				<string>3033E18B1827677200E45809</string>
+				<string>3033E18A1827677200E45809</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E1811827677200E45809</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>CLASSPREFIX</key>
+				<string>BTL</string>
+				<key>LastUpgradeCheck</key>
+				<string>0500</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Michael Buckley</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>3033E1881827677200E45809</key>
+					<dict>
+						<key>DevelopmentTeam</key>
+						<string>S4YHUE5Y65</string>
+					</dict>
+					<key>3033E1AC1827677300E45809</key>
+					<dict>
+						<key>TestTargetID</key>
+						<string>3033E1881827677200E45809</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>3033E1841827677200E45809</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>3033E1801827677200E45809</string>
+			<key>productRefGroup</key>
+			<string>3033E18A1827677200E45809</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>3033E1881827677200E45809</string>
+				<string>3033E1AC1827677300E45809</string>
+			</array>
+		</dict>
+		<key>3033E1841827677200E45809</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>3033E1BB1827677300E45809</string>
+				<string>3033E1BC1827677300E45809</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>3033E1851827677200E45809</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>3044F84F182B013D00E70293</string>
+				<string>3033E1C7182768BD00E45809</string>
+				<string>30B015291828AD3F0083BD94</string>
+				<string>3033E1991827677200E45809</string>
+				<string>30BC2B96182C717C006FFE59</string>
+				<string>3033E1CA182776EC00E45809</string>
+				<string>3044F845182AEF7D00E70293</string>
+				<string>3033E1CD1827790400E45809</string>
+				<string>3033E1A01827677200E45809</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>3033E1861827677200E45809</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>3044F84B182AFE3300E70293</string>
+				<string>3044F84C182AFE3300E70293</string>
+				<string>3033E1C4182767A500E45809</string>
+				<string>3033E18D1827677200E45809</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>3033E1871827677200E45809</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>3033E1971827677200E45809</string>
+				<string>3033E1A81827677200E45809</string>
+				<string>3033E19D1827677200E45809</string>
+				<string>3033E1A31827677200E45809</string>
+				<string>3033E1A61827677200E45809</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>3033E1881827677200E45809</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>3033E1BD1827677300E45809</string>
+			<key>buildPhases</key>
+			<array>
+				<string>3033E1851827677200E45809</string>
+				<string>3033E1861827677200E45809</string>
+				<string>3033E1871827677200E45809</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Spriteplant Iso</string>
+			<key>productName</key>
+			<string>Spriteplant Iso</string>
+			<key>productReference</key>
+			<string>3033E1891827677200E45809</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>3033E1891827677200E45809</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Spriteplant Iso.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>3033E18A1827677200E45809</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3033E1891827677200E45809</string>
+				<string>3033E1AD1827677300E45809</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E18B1827677200E45809</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3044F849182AFE3300E70293</string>
+				<string>3044F84A182AFE3300E70293</string>
+				<string>3033E1C3182767A500E45809</string>
+				<string>3033E18C1827677200E45809</string>
+				<string>3033E1AE1827677300E45809</string>
+				<string>3033E18E1827677200E45809</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E18C1827677200E45809</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Cocoa.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/Cocoa.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>3033E18D1827677200E45809</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3033E18C1827677200E45809</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3033E18E1827677200E45809</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3033E18F1827677200E45809</string>
+				<string>3033E1901827677200E45809</string>
+				<string>3033E1911827677200E45809</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Other Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E18F1827677200E45809</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>AppKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/AppKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>3033E1901827677200E45809</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreData.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreData.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>3033E1911827677200E45809</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>3033E1921827677200E45809</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3033E1C8182776EC00E45809</string>
+				<string>3033E1C9182776EC00E45809</string>
+				<string>3033E19E1827677200E45809</string>
+				<string>3033E19F1827677200E45809</string>
+				<string>3033E1A11827677200E45809</string>
+				<string>3033E1C5182768BD00E45809</string>
+				<string>3033E1C6182768BD00E45809</string>
+				<string>3033E1CB1827790400E45809</string>
+				<string>3033E1CC1827790400E45809</string>
+				<string>3033E1A41827677200E45809</string>
+				<string>3033E1A71827677200E45809</string>
+				<string>3033E1931827677200E45809</string>
+				<string>30B015271828AD3F0083BD94</string>
+				<string>30B015281828AD3F0083BD94</string>
+				<string>30BC2B94182C717C006FFE59</string>
+				<string>30BC2B95182C717C006FFE59</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Spriteplant Iso</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E1931827677200E45809</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3033E1941827677200E45809</string>
+				<string>3033E1951827677200E45809</string>
+				<string>3033E1981827677200E45809</string>
+				<string>3033E19A1827677200E45809</string>
+				<string>3033E19B1827677200E45809</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E1941827677200E45809</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Spriteplant Iso-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E1951827677200E45809</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3033E1961827677200E45809</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E1961827677200E45809</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E1971827677200E45809</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3033E1951827677200E45809</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3033E1981827677200E45809</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E1991827677200E45809</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3033E1981827677200E45809</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3033E19A1827677200E45809</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Spriteplant Iso-Prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E19B1827677200E45809</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3033E19C1827677200E45809</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Credits.rtf</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E19C1827677200E45809</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.rtf</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/Credits.rtf</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E19D1827677200E45809</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3033E19B1827677200E45809</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3033E19E1827677200E45809</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SpritePlantIsoDocument.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E19F1827677200E45809</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SpritePlantIsoDocument.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E1A01827677200E45809</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3033E19F1827677200E45809</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3033E1A11827677200E45809</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3033E1A21827677200E45809</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>SpritePlantIsoDocument.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E1A21827677200E45809</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/SpritePlantIsoDocument.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E1A31827677200E45809</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3033E1A11827677200E45809</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3033E1A41827677200E45809</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3033E1A51827677200E45809</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>MainMenu.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E1A51827677200E45809</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/MainMenu.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E1A61827677200E45809</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3033E1A41827677200E45809</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3033E1A71827677200E45809</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Images.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E1A81827677200E45809</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3033E1A71827677200E45809</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3033E1A91827677300E45809</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>3033E1BA1827677300E45809</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>3033E1AA1827677300E45809</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>3033E1B01827677300E45809</string>
+				<string>3033E1AF1827677300E45809</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>3033E1AB1827677300E45809</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>3033E1B81827677300E45809</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>3033E1AC1827677300E45809</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>3033E1C01827677300E45809</string>
+			<key>buildPhases</key>
+			<array>
+				<string>3033E1A91827677300E45809</string>
+				<string>3033E1AA1827677300E45809</string>
+				<string>3033E1AB1827677300E45809</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>3033E1B21827677300E45809</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Spriteplant IsoTests</string>
+			<key>productName</key>
+			<string>Spriteplant IsoTests</string>
+			<key>productReference</key>
+			<string>3033E1AD1827677300E45809</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>3033E1AD1827677300E45809</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Spriteplant IsoTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>3033E1AE1827677300E45809</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>XCTest.framework</string>
+			<key>path</key>
+			<string>Library/Frameworks/XCTest.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>3033E1AF1827677300E45809</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3033E1AE1827677300E45809</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3033E1B01827677300E45809</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3033E18C1827677200E45809</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3033E1B11827677300E45809</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>3033E1811827677200E45809</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>3033E1881827677200E45809</string>
+			<key>remoteInfo</key>
+			<string>Spriteplant Iso</string>
+		</dict>
+		<key>3033E1B21827677300E45809</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>3033E1881827677200E45809</string>
+			<key>targetProxy</key>
+			<string>3033E1B11827677300E45809</string>
+		</dict>
+		<key>3033E1B31827677300E45809</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3033E1B91827677300E45809</string>
+				<string>3033E1B41827677300E45809</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Spriteplant IsoTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E1B41827677300E45809</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3033E1B51827677300E45809</string>
+				<string>3033E1B61827677300E45809</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E1B51827677300E45809</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Spriteplant IsoTests-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E1B61827677300E45809</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3033E1B71827677300E45809</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E1B71827677300E45809</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E1B81827677300E45809</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3033E1B61827677300E45809</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3033E1B91827677300E45809</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Spriteplant_IsoTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E1BA1827677300E45809</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3033E1B91827677300E45809</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3033E1BB1827677300E45809</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_ENABLE_OBJC_EXCEPTIONS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>MACOSX_DEPLOYMENT_TARGET</key>
+				<string>10.9</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>macosx</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>3033E1BC1827677300E45809</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_ENABLE_OBJC_EXCEPTIONS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>MACOSX_DEPLOYMENT_TARGET</key>
+				<string>10.9</string>
+				<key>SDKROOT</key>
+				<string>macosx</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>3033E1BD1827677300E45809</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>3033E1BE1827677300E45809</string>
+				<string>3033E1BF1827677300E45809</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>3033E1BE1827677300E45809</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string>Mac Developer</string>
+				<key>CODE_SIGN_IDENTITY[sdk=macosx*]</key>
+				<string>Mac Developer</string>
+				<key>COMBINE_HIDPI_IMAGES</key>
+				<string>YES</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Spriteplant Iso/Spriteplant Iso-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Spriteplant Iso/Spriteplant Iso-Info.plist</string>
+				<key>LIBRARY_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>$(FRANK_LIBRARY_SEARCH_PATHS)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>$(FRANK_LDFLAGS)</string>
+				</array>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PROVISIONING_PROFILE</key>
+				<string></string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>3033E1BF1827677300E45809</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string>Mac Developer</string>
+				<key>CODE_SIGN_IDENTITY[sdk=macosx*]</key>
+				<string>Mac Developer</string>
+				<key>COMBINE_HIDPI_IMAGES</key>
+				<string>YES</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Spriteplant Iso/Spriteplant Iso-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Spriteplant Iso/Spriteplant Iso-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PROVISIONING_PROFILE</key>
+				<string></string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>3033E1C01827677300E45809</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>3033E1C11827677300E45809</string>
+				<string>3033E1C21827677300E45809</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>3033E1C11827677300E45809</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/Spriteplant Iso.app/Contents/MacOS/Spriteplant Iso</string>
+				<key>COMBINE_HIDPI_IMAGES</key>
+				<string>YES</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Spriteplant Iso/Spriteplant Iso-Prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>Spriteplant IsoTests/Spriteplant IsoTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>3033E1C21827677300E45809</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/Spriteplant Iso.app/Contents/MacOS/Spriteplant Iso</string>
+				<key>COMBINE_HIDPI_IMAGES</key>
+				<string>YES</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Spriteplant Iso/Spriteplant Iso-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Spriteplant IsoTests/Spriteplant IsoTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>3033E1C3182767A500E45809</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>SceneKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/SceneKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>3033E1C4182767A500E45809</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3033E1C3182767A500E45809</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3033E1C5182768BD00E45809</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SpritePlantIsoDocumentWindowController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E1C6182768BD00E45809</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SpritePlantIsoDocumentWindowController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E1C7182768BD00E45809</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3033E1C6182768BD00E45809</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3033E1C8182776EC00E45809</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SpritePlantIsoApplicationDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E1C9182776EC00E45809</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SpritePlantIsoApplicationDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E1CA182776EC00E45809</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3033E1C9182776EC00E45809</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3033E1CB1827790400E45809</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SpritePlantIsoNotifications.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E1CC1827790400E45809</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SpritePlantIsoNotifications.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3033E1CD1827790400E45809</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3033E1CC1827790400E45809</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3044F843182AEF7D00E70293</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>BTLSceneView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3044F844182AEF7D00E70293</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>BTLSceneView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3044F845182AEF7D00E70293</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3044F844182AEF7D00E70293</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3044F849182AFE3300E70293</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>GLKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/GLKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>3044F84A182AFE3300E70293</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>OpenGL.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/OpenGL.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>3044F84B182AFE3300E70293</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3044F849182AFE3300E70293</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3044F84C182AFE3300E70293</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3044F84A182AFE3300E70293</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3044F84D182B013D00E70293</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SpritePlantIsoDocumentWindow.h</string>
+			<key>path</key>
+			<string>Spriteplant Iso/SpritePlantIsoDocumentWindow.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3044F84E182B013D00E70293</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SpritePlantIsoDocumentWindow.m</string>
+			<key>path</key>
+			<string>Spriteplant Iso/SpritePlantIsoDocumentWindow.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3044F84F182B013D00E70293</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3044F84E182B013D00E70293</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>30B015271828AD3F0083BD94</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SpritePlantIsoDocumentController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>30B015281828AD3F0083BD94</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SpritePlantIsoDocumentController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>30B015291828AD3F0083BD94</key>
+		<dict>
+			<key>fileRef</key>
+			<string>30B015281828AD3F0083BD94</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>30BC2B94182C717C006FFE59</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>BTLBackgroundView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>30BC2B95182C717C006FFE59</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>BTLBackgroundView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>30BC2B96182C717C006FFE59</key>
+		<dict>
+			<key>fileRef</key>
+			<string>30BC2B95182C717C006FFE59</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>3033E1811827677200E45809</string>
+</dict>
+</plist>
